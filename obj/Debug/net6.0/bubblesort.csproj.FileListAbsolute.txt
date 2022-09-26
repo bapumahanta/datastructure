@@ -1,0 +1,30 @@
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.exe
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.deps.json
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.runtimeconfig.json
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.dll
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.pdb
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.csproj.AssemblyReference.cache
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.AssemblyInfoInputs.cache
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.AssemblyInfo.cs
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.csproj.CoreCompileInputs.cache
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.dll
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\refint\bubblesort.dll
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.pdb
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.genruntimeconfig.cache
+C:\Users\Saroj Mahanta\Downloads\datastructure\bubblesort\obj\Debug\net6.0\ref\bubblesort.dll
+C:\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.exe
+C:\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.deps.json
+C:\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.runtimeconfig.json
+C:\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.dll
+C:\datastructure\bubblesort\bin\Debug\net6.0\bubblesort.pdb
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.csproj.AssemblyReference.cache
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.GeneratedMSBuildEditorConfig.editorconfig
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.AssemblyInfoInputs.cache
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.AssemblyInfo.cs
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.csproj.CoreCompileInputs.cache
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.dll
+C:\datastructure\bubblesort\obj\Debug\net6.0\refint\bubblesort.dll
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.pdb
+C:\datastructure\bubblesort\obj\Debug\net6.0\bubblesort.genruntimeconfig.cache
+C:\datastructure\bubblesort\obj\Debug\net6.0\ref\bubblesort.dll

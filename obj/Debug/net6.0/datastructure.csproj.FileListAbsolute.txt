@@ -1,0 +1,15 @@
+C:\datastructure\datastructure\bin\Debug\net6.0\datastructure.exe
+C:\datastructure\datastructure\bin\Debug\net6.0\datastructure.deps.json
+C:\datastructure\datastructure\bin\Debug\net6.0\datastructure.runtimeconfig.json
+C:\datastructure\datastructure\bin\Debug\net6.0\datastructure.dll
+C:\datastructure\datastructure\bin\Debug\net6.0\datastructure.pdb
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.csproj.AssemblyReference.cache
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.AssemblyInfoInputs.cache
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.AssemblyInfo.cs
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.csproj.CoreCompileInputs.cache
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.dll
+C:\datastructure\datastructure\obj\Debug\net6.0\refint\datastructure.dll
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.pdb
+C:\datastructure\datastructure\obj\Debug\net6.0\datastructure.genruntimeconfig.cache
+C:\datastructure\datastructure\obj\Debug\net6.0\ref\datastructure.dll
