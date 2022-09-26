@@ -1,6 +1,6 @@
 namespace slnum
 {
-    class secondlargestnum
+    class secondlargestnumber
     {
         public static void Main(String[] args)
         {
