@@ -1,10 +1,11 @@
 using System;
 namespace bubblesort 
 {
-   class MyBubbleSort {
-      static void bubblesort(string[] args)
+   class MyBubbleSort 
+    {
+      public static void MainBubble(string[] args)
         {
-            int[] arr = { 78, 55, 45, 98, 13 };
+            int[] arr = {45,87,30,20,97,63,75,34,88,65,30,27,45,30,48,99};
             int temp;
 
             for (int j = 0; j <= arr.Length - 2; j++)

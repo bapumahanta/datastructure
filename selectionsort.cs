@@ -3,10 +3,11 @@ namespace selectionsort
 {
    class MySelectionSort
    {
-      static void selectionsort(string[] args) 
+      static void Main4(string[] args) 
       {
-         int[] arr = new int[6] { 56, 1, 99, 67, 10, 23 };
-         int n = 6;
+         int[] arr = {45,87,30,20,97,63,75,34,88,65,30,27,45,30,48,99};
+         int n = arr.Length;
+
          Console.WriteLine("Selection sort");
          Console.Write("Initial array is: ");
          for (int i = 0; i < n; i++) 

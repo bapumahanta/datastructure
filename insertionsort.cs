@@ -6,8 +6,9 @@ namespace insertionsort
         static void insertionsort(string[] args)
         {
             int[] arr = { 78, 55, 45, 98, 13, 39 };
-            int j, temp;
-            for (int i = 1; i < arr.Length; i++)
+            int arrlntgh = arr.Length;
+            int i, j, temp;
+            for ( i = 1; i < arrlntgh; i++)
             {
                 temp = arr[i];
                 j = i - 1;
@@ -18,7 +19,7 @@ namespace insertionsort
                 }
                 arr[j + 1] = temp;
             }
-            for (int i = 0; i < arr.Length; i++)
+            for (i = 0; i < arr.Length; i++)
                 Console.Write(arr[i] + " ");
         }
     }
