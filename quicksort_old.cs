@@ -1,6 +1,6 @@
 using System;
 
-namespace quicksort
+namespace datastructure
 {
     class MyQuickSort
     {
@@ -50,10 +50,15 @@ namespace quicksort
                 }
             }
         }
-        public static void Main_quiksort(string[] args)
+        public static void Mainold(string[] args)
         {
             int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 
+
+            MyLinearSearch ls = new MyLinearSearch();
+            ls.linearsearch(); 
+
+            
             Console.WriteLine("Original array : ");
             foreach (var item in arr)
             {

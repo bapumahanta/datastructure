@@ -1,5 +1,5 @@
 using System;
-namespace insertionsort
+namespace datastructure
 {
     class MyInsertionSort
     {
