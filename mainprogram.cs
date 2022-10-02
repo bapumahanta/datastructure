@@ -19,7 +19,8 @@ namespace datastructure
             
             switch(choice)
             {
-                case 1: MyBinarySearch.binarysearch();
+                case 1: Console.WriteLine("\nDoing Binary Search......\n");
+                        MyBinarySearch.binarysearch();
                         break;
                 case 2: MyLinearSearch.linearsearch();
                         break;
