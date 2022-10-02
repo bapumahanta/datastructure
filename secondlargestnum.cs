@@ -1,8 +1,8 @@
-namespace slnum
+namespace datastructure
 {
-    class secondlargestnumber
+    class SecondLargestNumber
     {
-        public static void Main1(String[] args)
+        public static void secondlargestnumber()
         {
             int[] arr={12, 34, 54, 23, 85, 13, 57, 82, 44};
             int max1, max2;

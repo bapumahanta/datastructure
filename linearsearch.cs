@@ -13,7 +13,7 @@ namespace datastructure
             return -1;
         }
 
-        public void linearsearch()   // while runing the program, change the funtion name to "main"
+        public static void linearsearch()   // while runing the program, change the funtion name to "main"
         {
             int[] array = { 20, 60, 10, 15, 40 };
             int searchitem = 15;

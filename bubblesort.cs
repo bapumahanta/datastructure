@@ -1,9 +1,9 @@
 using System;
-namespace bubblesort 
+namespace datastructure 
 {
    class MyBubbleSort 
     {
-      public static void MainBubble(string[] args)
+      public static void bubblesort()
         {
             int[] arr = {45,87,30,20,97,63,75,34,88,65,30,27,45,30,48,99};
             int temp;

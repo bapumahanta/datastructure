@@ -1,9 +1,8 @@
-using System;
-namespace selectionsort
+namespace datastructure
 {
    class MySelectionSort
    {
-      static void Main4(string[] args) 
+      public static void selectionsort() 
       {
          int[] arr = {45,87,30,20,97,63,75,34,88,65,30,27,45,30,48,99};
          int n = arr.Length;

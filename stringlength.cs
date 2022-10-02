@@ -1,10 +1,10 @@
 using System;
 
-namespace strlength
+namespace datastructure
 {
-    class stringlength
+    class Stringlength
     {
-        public static void Main_stringlength()
+        public static void stringlength()
         {
             char[] strdata = new char[8];
             string? inputdata = null;

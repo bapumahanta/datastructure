@@ -1,7 +1,9 @@
-class conversion
+namespace datastructure
 {
-    public static void Main(String[] args)
+    class Conversion
     {
+       public static void conversion()
+       {
         Decimal bottles=0.00M;
         decimal number=0.0M;
         Console.Write("Enter Number of Litres: ");      
@@ -10,6 +12,6 @@ class conversion
         bottles = (number / 5*10); 
         Console.Write(number +"L water will fill "+ decimal.Truncate(bottles)
         +" bottles " +"("+ Math.Round((number-Math.Truncate(number)),2) +"L remaining)");
+    }
 }
-}
-
+}   

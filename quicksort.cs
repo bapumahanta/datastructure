@@ -1,54 +1,76 @@
 using System;
+
 namespace datastructure
 {
-    class datastructure
+    class MyQuickSort
     {
-        public static void Maintemp(String[] args)
+        private static void Quick_Sort(int[] arr, int left, int right) 
         {
-            int[] dataset = {45,87,30,20,97,63,75,34,88,65,30,27,45,30,48,99};
-            int totaldata = dataset.Length;
-            int i=0;
-            quick_sort(dataset, 0, totaldata-1);
-            
-            for(i=0;i<totaldata;i++)
-                Console.WriteLine(dataset[i]);
+            if (left < right)
+            {
+                int pivot = Partition(arr, left, right);
+
+                if (pivot > 1) {
+                    Quick_Sort(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right) {
+                    Quick_Sort(arr, pivot + 1, right);
+                }
+            }
+        
         }
 
-        public static void quick_sort(int[] ds, int left, int right)    
+        private static int Partition(int[] arr, int left, int right)
         {
-            int pivot=0;
-            if(left<right)  
+            int pivot = arr[left];
+            while (true) 
             {
 
-               pivot = partition(ds,left,right);
-               if((pivot+1) < right)
-                 quick_sort(ds,(pivot+1),right);
-                 if(pivot>1)
-                 quick_sort(ds,left,(pivot-1));
+                while (arr[left] < pivot) 
+                {
+                    left++;
+                }
+
+                while (arr[right] > pivot)
+                {
+                    right--;
+                }
+
+                if (left < right)
+                {
+                    if (arr[left] == arr[right]) return right;
+
+                    int temp = arr[left];
+                    arr[left] = arr[right];
+                    arr[right] = temp;
+                }
+                else 
+                {
+                    return right;
+                }
             }
         }
-
-        public static int partition(int[] qs, int left, int right)   
+        public static void quicksort()
         {
-            int pivot=qs[left];
-            while(true)
+            int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+            
+            Console.WriteLine("Original array : ");
+            foreach (var item in arr)
             {
-                while(qs[left] < pivot)
-                left++;
-                while(qs[right] > pivot)
-                right--;
-                if(left<right)
-                {
-                    if(qs[left]==qs[right])
-                     return right;
-                    int temp= qs[left];
-                    qs[left] = qs[right];
-                    qs[right] = temp;
-                }
-                else
-                  
-                 return right;     
-            } 
+                Console.Write(" " + item);    
+            }
+            Console.WriteLine();
+
+            Quick_Sort(arr, 0, arr.Length-1);
+            
+            Console.WriteLine();
+            Console.WriteLine("Sorted array : ");
+           
+		   foreach (var item in arr)
+            {
+                Console.Write(" " + item);
+            }
+            Console.WriteLine();
         }
     }
 }
